@@ -15,12 +15,18 @@ public class Array {
         daysInMonth[10] = 30;
         daysInMonth[11] = 31;
 
-        int march = daysInMonth[2];
-
-        System.out.println(march);
-
         for (int i =0; i<12; i++){
             System.out.println(daysInMonth[i]);
         }
+
+        for (int i =0; i<daysInMonth.length; i++){
+            System.out.println(daysInMonth[i]);
+        }
+
+        for (int i: daysInMonth){
+            System.out.println(i);
+        }
+
+
     }
 }
